@@ -2,6 +2,13 @@
     height: auto;
 }
 
+%video {
+    display: block;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}
+
 .iphone {
     position: absolute;
     left: 50%;
@@ -10,6 +17,12 @@
     background-size: contain;
     width: 300px;
     height: 480px;
+
+    video {
+        @extend %video;
+        width: 228px;
+        top: 38px;
+    }
 }
 
 
@@ -23,11 +36,8 @@
     height: 480px;
 
     video {
-        width: 228px;
-        display: block;
-        margin: auto;
-        position: relative;
-        top: 38px;
-        cursor: pointer;
+        @extend %video;
+        width: 208px;
+        top: 56px;
     }
 }

@@ -14,7 +14,7 @@ class: segue dark nobackground
 
 title: Iframe video
 class: video
-device: nexus
+device: iphone
 video: http://demos.marfeel.com/elconfidencial.mp4
 
 ---
