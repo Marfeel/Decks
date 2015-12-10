@@ -2,6 +2,12 @@
     height: auto;
 }
 
+slide {
+    border-image: linear-gradient(-90deg,#F66B1C 0,#8CC73F 100%);
+    border-image-width: 6px 100% 0 0;
+    border-bottom: 0;
+}
+
 %video {
     display: block;
     margin: auto;
@@ -20,8 +26,8 @@
 
     video {
         @extend %video;
-        width: 228px;
-        top: 38px;
+        width: 208px;
+        top: 56px;
     }
 }
 
@@ -37,7 +43,7 @@
 
     video {
         @extend %video;
-        width: 208px;
-        top: 56px;
+        width: 228px;
+        top: 38px;
     }
 }
