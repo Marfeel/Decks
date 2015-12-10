@@ -1,9 +1,3 @@
-title: Segue Slide
-subtitle: Subtitle
-class: segue dark nobackground
-
----
-
 title: Iframe video
 class: video
 device: iphone
