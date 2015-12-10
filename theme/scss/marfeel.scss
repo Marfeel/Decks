@@ -129,3 +129,9 @@ slides > slide:not(.nobackground):after {
 .backdrop {
 	background: white !important;
 }
+
+.portada {
+	&:before, &:after {
+		display: none;
+	}
+}
