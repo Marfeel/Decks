@@ -745,7 +745,7 @@ SlideDeck.prototype.loadTheme_ = function(theme) {
     style.rel = 'stylesheet';
     style.type = 'text/css';
     if (themeUrl.indexOf('http') == -1) {
-      style.href = this.CSS_DIR_ + themeUrl + '.css';
+      style.href = '/' + this.CSS_DIR_ + themeUrl + '.css';
     } else {
       style.href = themeUrl;
     }
