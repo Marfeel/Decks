@@ -5,8 +5,14 @@ video: http://demos.marfeel.com/elconfidencial.mp4
 
 ---
 
+title: Cover
+subtitle: cover subtitle
+class: cover
+
+---
+
 title: Agenda
-class: big
+subtitle: Agenda subtitle
 build_lists: true
 
 Things we'll cover (list should build):
@@ -17,55 +23,9 @@ Things we'll cover (list should build):
 
 ---
 
-title: Today
-class: nobackground fill
-
-![Many kinds of devices.](image.png)
-
-<footer class="source">source: place source info here</footer>
-
----
-
-title: Big Title Slide
-class: title-slide
-
----
-
-title: Code Example
-
-Media Queries are sweet:
-
-<pre class="prettyprint" data-lang="css">
-@media screen and (max-width: 640px) {
-  #sidebar { display: none; }
-}
-</pre>
-
----
-
-title: Once more, with JavaScript
-
-<pre class="prettyprint" data-lang="javascript">
-function isSmall() {
-  return window.matchMedia("(min-device-width: ???)").matches;
-}
-
-function hasTouch() {
-  return Modernizr.touch;
-}
-
-function detectFormFactor() {
-  var device = DESKTOP;
-  if (hasTouch()) {
-    device = isSmall() ? PHONE : TABLET;
-  }
-  return device;
-}
-</pre>
-
----
-
 title: Centered content
 content_class: flexbox vcenter
 
 This content should be centered!
+
+

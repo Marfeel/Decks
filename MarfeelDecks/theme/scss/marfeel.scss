@@ -72,3 +72,17 @@ slides>slide:not(.nobackground):after {
     }
 
 }
+
+.cover {
+    hgroup {
+        text-align: center;
+        margin-top: 20%;
+    }
+}
+
+.closing {
+    background-image: url("../../images/skyline.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+}
