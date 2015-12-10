@@ -46,6 +46,24 @@ URL: https://code.google.com/p/io-2012-slides
 
             <h3>{{- slide.subtitle -}}</h3>
         </hgroup>
+        {% elif 'multivideo' in slide.class %}
+        <hgroup class="auto-fadein">
+            <h2>{{- slide.title -}}</h2>
+
+            <h3>{{- slide.subtitle -}}</h3>
+        </hgroup>
+        <article>
+            <div class="{{- slide.deviceLeft }} left auto-fadein">
+                <video loop="" muted="" volume="0" poster="" onclick="this.paused ? this.play() : this.pause()">
+                    <source src="{{- slide.videoLeft -}}" type="video/mp4">
+                </video>
+            </div>
+            <div class="{{- slide.deviceRight }} right auto-fadein">
+                <video loop="" muted="" volume="0" poster="" onclick="this.paused ? this.play() : this.pause()">
+                    <source src="{{- slide.videoRight -}}" type="video/mp4">
+                </video>
+            </div>
+        </article>
         {% elif 'video' in slide.class %}
         <hgroup class="auto-fadein">
             <h2>{{- slide.title -}}</h2>
@@ -53,7 +71,7 @@ URL: https://code.google.com/p/io-2012-slides
             <h3>{{- slide.subtitle -}}</h3>
         </hgroup>
         <article>
-            <div class="{{- slide.device -}}">
+            <div class="{{- slide.device }} auto-fadein">
                 <video loop="" muted="" volume="0" poster="" onclick="this.paused ? this.play() : this.pause()">
                     <source src="{{- slide.video -}}" type="video/mp4">
                 </video>
@@ -80,8 +98,11 @@ URL: https://code.google.com/p/io-2012-slides
 
 
     <slide class="closing">
-        <article class="flexbox vcenter">
-            <span><img src="images/logo.png"></span>
+        <article>
+            <span>
+                <img src="images/logo.png">
+                <p>Optimize, Engage, Monetize.</p>
+            </span>
         </article>
     </slide>
 

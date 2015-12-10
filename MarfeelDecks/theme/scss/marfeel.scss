@@ -17,8 +17,6 @@ slide {
 
 .iphone {
     position: absolute;
-    left: 50%;
-    margin-left: -150px;
     background: transparent url("../../images/iphone.png") center no-repeat;
     background-size: contain;
     width: 300px;
@@ -34,8 +32,6 @@ slide {
 
 .nexus {
     position: absolute;
-    left: 50%;
-    margin-left: -150px;
     background: transparent url("../../images/nexus6.png") center no-repeat;
     background-size: contain;
     width: 300px;
@@ -45,6 +41,24 @@ slide {
         @extend %video;
         width: 228px;
         top: 38px;
+    }
+}
+
+.video {
+    .nexus, .iphone {
+        left: 50%;
+        margin-left: -150px;
+    }
+}
+
+.multivideo {
+    .left {
+        left: 30%;
+        margin-left: -150px;
+    }
+    .right {
+        right: 30%;
+        margin-right: -150px;
     }
 }
 
@@ -85,4 +99,12 @@ slides>slide:not(.nobackground):after {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: 100%;
+    article {
+        text-align: center;
+        margin-top: 150px;
+        img {
+            width: 250px;
+            margin-bottom: 10px;
+        }
+    }
 }

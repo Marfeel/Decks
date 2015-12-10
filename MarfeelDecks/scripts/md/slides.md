@@ -5,6 +5,15 @@ video: http://demos.marfeel.com/elconfidencial.mp4
 
 ---
 
+title: Iframe Multivideo
+class: multivideo
+deviceLeft: iphone
+videoLeft: http://demos.marfeel.com/elconfidencial.mp4
+deviceRight: nexus
+videoRight: http://demos.marfeel.com/elconfidencial.mp4
+
+---
+
 title: Cover
 subtitle: cover subtitle
 class: cover
