@@ -765,7 +765,7 @@ article.smaller {
 }
 
 .auto-fadein {
-  @include transition(opacity 0.6s ease-in 1s);
+  @include transition(opacity 0.4s ease-in 0.5s);
   opacity: 0;
 }
 
