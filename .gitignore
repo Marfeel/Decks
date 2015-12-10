@@ -1,0 +1,21 @@
+.sass-cache
+.idea/libraries
+.idea/workspace.xml
+.idea/compiler.xml
+.idea/modules.xml
+.idea/ant.xml
+.idea/copyright/profiles_settings.xml
+
+
+######################
+# OS generated files #
+######################
+.DS_Store*
+Thumbs.db
+
+######################
+#  IDEA CONFIG FILES #
+######################
+.idea
+**.iml
+!.mrfideaconfig/**.iml
