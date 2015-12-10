@@ -47,3 +47,13 @@ slide {
         top: 38px;
     }
 }
+
+
+slides>slide:not(.nobackground):after {
+    background-color: #8CC73F;
+    color: white;
+    height: 60px;
+    width: 45px;
+    text-align: center;
+    bottom: 0;
+}
