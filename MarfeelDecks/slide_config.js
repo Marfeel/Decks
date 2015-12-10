@@ -1,7 +1,7 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Marfeel Slides Test',
+    title: 'Marfeel Slides',
     subtitle: 'Subtitle Goes Here',
     eventInfo: {
      title: 'Board test',
@@ -17,18 +17,18 @@ var SLIDE_CONFIG = {
       'Source Sans Pro:regular,semibold,italic,italicsemibold',
       'Source Code Pro'
     ],
-    theme: ['marfeel'], // Add your own custom themes or styles in /theme/css. Leave off the .css extension.
+    theme: ['marfeel'] // Add your own custom themes or styles in /theme/css. Leave off the .css extension.
   },
 
   // Author information
-  presenters: [{
+  presenters: [/*{
     name: 'Firstname Lastname',
     company: 'Job Title<br>Google',
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
     www: 'http://www.you.com',
     github: 'http://github.com/you'
-  }/*, {
+  }, {
     name: 'Second Name',
     company: 'Job Title, Google',
     gplus: 'http://plus.google.com/1234567890',

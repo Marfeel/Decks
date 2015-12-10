@@ -57,3 +57,18 @@ slides>slide:not(.nobackground):after {
     text-align: center;
     bottom: 0;
 }
+
+.portada {
+    background-image: url("../../images/portada.png");
+    background-size: 110% auto;
+    background-repeat: no-repeat;
+    background-position-y: 130%;
+    background-position-x: 5%;
+
+    hgroup {
+        text-align: center;
+        top: 40px;
+        position: relative;
+    }
+
+}

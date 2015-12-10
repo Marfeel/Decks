@@ -1,11 +1,3 @@
-title: Slide Title
-subtitle: Subtitle
-class: image
-
-![Mobile vs desktop users](image.png)
-
----
-
 title: Segue Slide
 subtitle: Subtitle
 class: segue dark nobackground
