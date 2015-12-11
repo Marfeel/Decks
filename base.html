@@ -56,7 +56,7 @@ Marfeel HTML5 Slide Template
 
             <h3>{{- slide.subtitle -}}</h3>
         </hgroup>
-        <span class="footer-divider"></span>
+        <span class="footer-divider auto-fadein"></span>
         {% elif 'multivideo' in slide.class %}
         <span class="gradient-top"></span>
         <hgroup class="auto-fadein">
@@ -76,7 +76,7 @@ Marfeel HTML5 Slide Template
                 </video>
             </div>
         </article>
-        <span class="footer-divider"></span>
+        <span class="footer-divider auto-fadein"></span>
         {% elif 'video' in slide.class %}
         <span class="gradient-top"></span>
         <hgroup class="auto-fadein">
@@ -91,7 +91,7 @@ Marfeel HTML5 Slide Template
                 </video>
             </div>
         </article>
-        <span class="footer-divider"></span>
+        <span class="footer-divider auto-fadein"></span>
         {% elif 'cover' in slide.class %}
         <span class="gradient-top"></span>
         <hgroup class="auto-fadein">
@@ -99,7 +99,7 @@ Marfeel HTML5 Slide Template
 
             <h3>{{- slide.subtitle -}}</h3>
         </hgroup>
-        <span class="footer-divider"></span>
+        <span class="footer-divider auto-fadein"></span>
         {% else %}
         <span class="gradient-top"></span>
         <hgroup>
@@ -110,7 +110,7 @@ Marfeel HTML5 Slide Template
         <article {% if slide.content_class %}class="{{- slide.content_class -}}" {% endif %}>
             {{- slide.content -}}
         </article>
-        <span class="footer-divider"></span>
+        <span class="footer-divider auto-fadein"></span>
         {% endif %}
     </slide>
     {% endfor %}
