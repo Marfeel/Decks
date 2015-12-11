@@ -18,10 +18,11 @@ Marfeel HTML5 Slide Template
     <!-- This amazingness opens all links in a new tab. -->
     <script src="/js/require-1.0.8.min.js"></script>
     <script type="text/javascript">
-        window.build = "{{- cache_burst -}}";
+        window.build = "{{- cache_bust -}}";
 
         require.config({
             baseUrl: '/js',
+            urlArgs: "bust=" +  window.build,
             paths: {
                 "slide-config": "/{{- path -}}/slide_config"
             }
