@@ -1,3 +1,16 @@
+title: Mobile web the right way
+class: videocover
+device: iphone
+video: videos/elconfidencial.mp4
+
+---
+
+title: Marfeel Slides
+subtitle: Subtitle Goes Here
+class: frontcover
+
+---
+
 title: Iframe video
 class: video
 device: iphone

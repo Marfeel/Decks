@@ -1,12 +1,6 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Marfeel Slides',
-    subtitle: 'Subtitle Goes Here',
-    eventInfo: {
-     title: 'Board test',
-     date: '6/x/2015'
-    },
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.

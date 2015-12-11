@@ -34,21 +34,36 @@ Marfeel HTML5 Slide Template
 <body style="opacity: 0">
 
 <slides class="layout-widescreen">
-
-    <slide class="portada">
-        <span class="gradient-top"></span>
-        <hgroup class="auto-fadein">
-            <h1 data-config-title><!-- populated from slide_config.json --></h1>
-
-            <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
-        </hgroup>
-        <img src="/images/logo.png">
-    </slide>
-
     {% for slide in slides %}
     <slide {% if slide.class %}class="{{- slide.class -}}" {% endif %} {% if slide.image
            %}style="background-image: url({{- slide.image -}})" {% endif %}>
-        {% if 'segue' in slide.class %}
+        {% if 'videocover' in slide.class %}
+            <span class="gradient-top"></span>
+            <div class="left flexbox vcenter">
+                <div class="auto-fadein">
+                    <img src="/images/logo.png">
+                    <p>{{- slide.title -}}</p>
+                </div>
+            </div>
+            <div class="right flexbox vcenter">
+                <div class="{{- slide.device }} auto-fadein">
+                    <video loop="" muted="" volume="0" poster="" onclick="this.paused ? this.play() : this.pause()">
+                        <source src="{{- slide.video -}}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="hint">
+                <div class="arrows"></div>
+                <p class="text">Use the keyboard's arrows to move between slides</p>
+            </div>
+        {% elif 'frontcover' in slide.class %}
+            <span class="gradient-top"></span>
+            <hgroup class="auto-fadein">
+                <h1>{{- slide.title -}}</h1>
+                <h2>{{- slide.subtitle -}}</h2>
+            </hgroup>
+            <img src="/images/logo.png">
+        {% elif 'segue' in slide.class %}
         <span class="gradient-top"></span>
         <aside class="gdbar"><img src="/images/favicon144.png"></aside>
         <hgroup class="auto-fadein">

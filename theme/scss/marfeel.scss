@@ -19,12 +19,15 @@
 	cursor: pointer;
 }
 
-.iphone {
-	position: absolute;
-	background: transparent url("../../images/iphone.png") center no-repeat;
+%device {
 	background-size: contain;
 	width: 300px;
 	height: 480px;
+}
+
+.iphone {
+	@extend %device;
+	background: transparent url("../../images/iphone.png") center no-repeat;
 
 	video {
 		@extend %video;
@@ -34,11 +37,8 @@
 }
 
 .nexus {
-	position: absolute;
+	@extend %device;
 	background: transparent url("../../images/nexus6.png") center no-repeat;
-	background-size: contain;
-	width: 300px;
-	height: 480px;
 
 	video {
 		@extend %video;
@@ -49,6 +49,7 @@
 
 .video {
 	.nexus, .iphone {
+		position: absolute;
 		left: 50%;
 		margin-left: -150px;
 	}
@@ -56,10 +57,12 @@
 
 .multivideo {
 	.left {
+		position: absolute;
 		left: 30%;
 		margin-left: -150px;
 	}
 	.right {
+		position: absolute;
 		right: 30%;
 		margin-right: -150px;
 	}
@@ -74,7 +77,7 @@ slides > slide:not(.nobackground):after {
 	bottom: 0;
 }
 
-.portada {
+.frontcover {
 	background-image: url("../../images/portada.png");
 	background-size: 110% auto;
 	background-repeat: no-repeat;
@@ -137,7 +140,7 @@ h1, h2, h3 {
 	letter-spacing: 0px;
 }
 
-.portada {
+.frontcover {
 	&:before, &:after {
 		display: none;
 	}
@@ -166,4 +169,51 @@ h1, h2, h3 {
 	border-bottom: 1px solid #E7E7E7;
 	bottom: 67px;
 	position: absolute;
+}
+
+.videocover {
+	.right, .left {
+		width: 46%;
+		float: left;
+	}
+
+	.left {
+		text-align: center;
+		p {
+			transform: translateX(-19px);
+			font-size: 0.7em;
+		}
+	}
+
+	.left > div {
+		transform: translateY(-40px);
+	}
+	img {
+		width: 225px;
+		transform: translateX(2px);
+		margin-bottom: 12px;
+	}
+	&:before, &:after {
+		display: none;
+	}
+
+	.hint {
+		position: absolute;
+		bottom: 30px;
+		right: 36px;
+		width: 120px;
+		text-align: center;
+		.arrows {
+			background-image: url("../../images/arrows.png");
+			width: 59px;
+			height: auto;
+			height: 36px;
+			background-size: cover;
+			margin: auto;
+			margin-bottom: 10px;
+		}
+		.text {
+			font-size: 0.4em;
+		}
+	}
 }
