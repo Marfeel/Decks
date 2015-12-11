@@ -5,6 +5,7 @@ import re
 import jinja2
 import markdown
 from sys import argv
+import time
 
 def process_slides():
   with codecs.open(argv[1] + '/index.html', 'w', encoding='utf8') as outfile:
@@ -14,6 +15,7 @@ def process_slides():
 
     slides = []
     path = argv[1]
+    cache_burst =  time.time();
     # Process each slide separately.
     for md_slide in md_slides:
       slide = {}
