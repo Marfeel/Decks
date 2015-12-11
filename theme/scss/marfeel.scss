@@ -85,8 +85,7 @@ slides > slide:not(.nobackground):after {
 	background-image: url("../../images/portada.png");
 	background-size: 110% auto;
 	background-repeat: no-repeat;
-	background-position-y: 130%;
-	background-position-x: 5%;
+	background-position: 5% 130%;
 
 	hgroup {
 		text-align: center;
