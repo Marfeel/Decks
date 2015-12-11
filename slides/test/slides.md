@@ -1,16 +1,16 @@
 title: Iframe video
 class: video
 device: iphone
-video: http://demos.marfeel.com/elconfidencial.mp4
+video: videos/elconfidencial.mp4
 
 ---
 
 title: Iframe Multivideo
 class: multivideo
 deviceLeft: iphone
-videoLeft: http://demos.marfeel.com/elconfidencial.mp4
+videoLeft: videos/elconfidencial.mp4
 deviceRight: nexus
-videoRight: http://demos.marfeel.com/elconfidencial.mp4
+videoRight: videos/elconfidencial.mp4
 
 ---
 

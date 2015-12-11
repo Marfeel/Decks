@@ -13,6 +13,7 @@ def process_slides():
     print 'Compiled %s slides.' % len(md_slides)
 
     slides = []
+    path = argv[1]
     # Process each slide separately.
     for md_slide in md_slides:
       slide = {}

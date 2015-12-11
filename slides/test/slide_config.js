@@ -21,20 +21,6 @@ var SLIDE_CONFIG = {
   },
 
   // Author information
-  presenters: [/*{
-    name: 'Firstname Lastname',
-    company: 'Job Title<br>Google',
-    gplus: 'http://plus.google.com/1234567890',
-    twitter: '@yourhandle',
-    www: 'http://www.you.com',
-    github: 'http://github.com/you'
-  }, {
-    name: 'Second Name',
-    company: 'Job Title, Google',
-    gplus: 'http://plus.google.com/1234567890',
-    twitter: '@yourhandle',
-    www: 'http://www.you.com',
-    github: 'http://github.com/you'
-  }*/]
+  presenters: []
 };
 

@@ -30,10 +30,12 @@
             <includes>
                 <include>images/**</include>
                 <include>js/**</include>
-                <include>slides/**/index.html</include>
+                <include>slides/**</include>
                 <include>theme/css/**</include>
-                <include>slide_config.js</include>
             </includes>
+            <excludes>
+                <exclude>slides/**/slides.md</exclude>
+            </excludes>
         </fileSet>
     </fileSets>
 </assembly>
