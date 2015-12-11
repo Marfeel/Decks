@@ -19,3 +19,10 @@ Thumbs.db
 .idea
 **.iml
 !.mrfideaconfig/**.iml
+
+
+######################
+#  COMPILED FILES #
+######################
+slides/**/index.html
+theme/css/**/*.css

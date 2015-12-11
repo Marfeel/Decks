@@ -7,7 +7,7 @@ import markdown
 from sys import argv
 
 def process_slides():
-  with codecs.open(argv[1] + '/slides.html', 'w', encoding='utf8') as outfile:
+  with codecs.open(argv[1] + '/index.html', 'w', encoding='utf8') as outfile:
     md = codecs.open(argv[1] + '/slides.md', encoding='utf8').read()
     md_slides = md.split('\n---\n')
     print 'Compiled %s slides.' % len(md_slides)
