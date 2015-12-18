@@ -111,6 +111,7 @@ title: Next Steps
 title: Try it yourself from your mobile browser
 
 - http://www.lacanvas.com
+- http://photographyblogger.net
 - http://www.elconfidencial.com
 - http://www.vozpopuli.com
 - http://www.denofgeek.us
