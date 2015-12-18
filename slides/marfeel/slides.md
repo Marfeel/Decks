@@ -110,8 +110,8 @@ title: Next Steps
 
 title: Try it yourself from your mobile browser
 
+- http://www.lacanvas.com
 - http://www.elconfidencial.com
 - http://www.vozpopuli.com
 - http://www.denofgeek.us
-- http://www.lacanvas.com
 
