@@ -29,6 +29,7 @@ class: cover
 title: &#9829; UX
 class: textVideo
 device: iphone
+video: videos/sharing.mp4
 
 - UX specialized and optimized for media publishers. Swipe democratization at least delivers 3x uplift in PageViews / Visit
 - 3 level navigation: Mosaic, Details, Galleries, deep linking. Infinite scroll
@@ -41,7 +42,7 @@ device: iphone
 title: &#9829; UX
 class: textVideo
 device: iphone
-video: http://demos.marfeel.com/elconfidencial.mp4
+video: videos/widgets.mp4
 
 - Widgets
     - Sports
@@ -55,11 +56,11 @@ video: http://demos.marfeel.com/elconfidencial.mp4
 title: Themes
 class: trivideo
 deviceLeft: nexus
-videoLeft: http://demos.marfeel.com/elconfidencial.mp4
+videoLeft: videos/denofgeek.mp4
 deviceRight: nexus
-videoRight: http://demos.marfeel.com/elconfidencial.mp4
+videoRight: videos/vanitatis.mp4
 deviceMiddle: nexus
-videoMiddle: http://demos.marfeel.com/elconfidencial.mp4
+videoMiddle: videos/fashion.mp4
 
 ---
 
