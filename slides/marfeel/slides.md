@@ -1,7 +1,7 @@
 title: Mobile Web the right way
 class: videocover
 device: iphone
-video: http://demos.marfeel.com/elconfidencial.mp4
+video: videos/confi.mp4
 
 ---
 
@@ -53,6 +53,13 @@ video: http://demos.marfeel.com/elconfidencial.mp4
 ---
 
 title: Themes
+class: trivideo
+deviceLeft: nexus
+videoLeft: http://demos.marfeel.com/elconfidencial.mp4
+deviceRight: nexus
+videoRight: http://demos.marfeel.com/elconfidencial.mp4
+deviceMiddle: nexus
+videoMiddle: http://demos.marfeel.com/elconfidencial.mp4
 
 ---
 
@@ -75,6 +82,9 @@ Marfeel helps publishers optimize their revenues through an specialized system t
 - Ad Dealer. Algorithm that A/B tests & optimizes where ad impressions should be made to maximize the CTR
 - SSP. Platform that decides the floor price for each impression, advertiser, device and time of the day
 
+
+![Marfeel Monetization](images/monetization.png "Marfeel Monetization")
+
 ---
 
 title: From zero to hero
@@ -90,10 +100,6 @@ We can Marfeelize any random site in a matter of minutes thanks to:
 title: Next Steps
 
 - How can we contribute to a bigger vision?
-- How can Marfeel be the defacto shell for all publishers solving mobile web across the board and not only inside google.com
+- How can Marfeel be the defacto shell for all publisher's websites allowing them to nail down mobile web across the board and not only inside google.com
 - Accelerated time to market for AMP
 
----
-
-title: Let's Marfeelize the web together
-class: cover
