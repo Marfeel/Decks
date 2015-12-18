@@ -56,6 +56,24 @@ Marfeel HTML5 Slide Template
                 <div class="arrows"></div>
                 <p class="text">Use the keyboard's arrows to move between slides</p>
             </div>
+        {% elif 'textVideo' in slide.class %}
+        <span class="gradient-top"></span>
+        <hgroup>
+            <h2>{{- slide.title -}}</h2>
+
+            <h3>{{- slide.subtitle -}}</h3>
+        </hgroup>
+        <article class="{% if slide.content_class %}{{- slide.content_class}} {% endif %}half left">
+            {{- slide.content -}}
+        </article>
+        <div class="half left">
+            <div class="{{- slide.device }} auto-fadein">
+                <video loop="" muted="" volume="0" poster="" onclick="this.paused ? this.play() : this.pause()">
+                    <source src="{{- slide.video -}}" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <span class="footer-divider auto-fadein"></span>
         {% elif 'frontcover' in slide.class %}
             <span class="gradient-top"></span>
             <hgroup class="auto-fadein">

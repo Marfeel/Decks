@@ -39,6 +39,9 @@ subtitle: $ = f (<3, |~)
 
 title: UX <3 Widgets
 subtitle: $ = f (<3, |~)
+class: textVideo
+device: iphone
+video: http://demos.marfeel.com/elconfidencial.mp4
 
 - Widgets
 - Sports
