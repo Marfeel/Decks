@@ -110,6 +110,31 @@ Marfeel HTML5 Slide Template
             </div>
         </article>
         <span class="footer-divider auto-fadein"></span>
+        {% elif 'trivideo' in slide.class %}
+        <span class="gradient-top"></span>
+        <hgroup class="auto-fadein">
+            <h2>{{- slide.title -}}</h2>
+
+            <h3>{{- slide.subtitle -}}</h3>
+        </hgroup>
+        <article>
+            <div class="{{- slide.deviceLeft }} left auto-fadein">
+                <video loop="" muted="" volume="0" poster="" onclick="this.paused ? this.play() : this.pause()">
+                    <source src="{{- slide.videoLeft -}}" type="video/mp4">
+                </video>
+            </div>
+            <div class="{{- slide.deviceMiddle }} left auto-fadein">
+                <video loop="" muted="" volume="0" poster="" onclick="this.paused ? this.play() : this.pause()">
+                    <source src="{{- slide.videoMiddle -}}" type="video/mp4">
+                </video>
+            </div>
+            <div class="{{- slide.deviceRight }} left auto-fadein">
+                <video loop="" muted="" volume="0" poster="" onclick="this.paused ? this.play() : this.pause()">
+                    <source src="{{- slide.videoRight -}}" type="video/mp4">
+                </video>
+            </div>
+        </article>
+        <span class="footer-divider auto-fadein"></span>
         {% elif 'video' in slide.class %}
         <span class="gradient-top"></span>
         <hgroup class="auto-fadein">

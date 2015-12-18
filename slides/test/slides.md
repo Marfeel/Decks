@@ -27,6 +27,17 @@ videoRight: videos/elconfidencial.mp4
 
 ---
 
+title: Iframe Trivideo
+class: trivideo
+deviceLeft: iphone
+videoLeft: http://demos.marfeel.com/elconfidencial.mp4
+deviceRight: nexus
+videoRight: http://demos.marfeel.com/elconfidencial.mp4
+deviceMiddle: nexus
+videoMiddle: http://demos.marfeel.com/elconfidencial.mp4
+
+---
+
 title: Cover
 subtitle: cover subtitle
 class: cover
