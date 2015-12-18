@@ -74,6 +74,20 @@ Marfeel HTML5 Slide Template
             </div>
         </div>
         <span class="footer-divider auto-fadein"></span>
+        {% elif 'textImage' in slide.class %}
+        <span class="gradient-top"></span>
+        <hgroup>
+            <h2>{{- slide.title -}}</h2>
+
+            <h3>{{- slide.subtitle -}}</h3>
+        </hgroup>
+        <article class="{% if slide.content_class %}{{- slide.content_class}} {% endif %}half left">
+            {{- slide.content -}}
+        </article>
+        <div class="right">
+            <img src="{{- slide.contentImage -}}" alt=""/>
+        </div>
+        <span class="footer-divider auto-fadein"></span>
         {% elif 'frontcover' in slide.class %}
             <span class="gradient-top"></span>
             <hgroup class="auto-fadein">

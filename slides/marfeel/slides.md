@@ -65,6 +65,8 @@ videoMiddle: videos/fashion.mp4
 ---
 
 title: ⚡ Performance
+class: textImage
+contentImage: images/pageSpeed.png
 
 - Instant loading < 0.8s.
 - Only above the fold resources are loaded. Everything else is loaded as late as possible but prefetched as early as possible
