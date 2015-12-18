@@ -104,13 +104,18 @@ slides > slide:not(.nobackground):after {
 }
 
 .closing {
+	h1 {
+		color: #515151;
+		font-size: 30px;
+		margin-bottom: 50px;
+	}
 	article {
 		text-align: center;
 		margin-top: 165px;
 		img {
-			width: 250px;
+			width: 200px;
 			margin-bottom: 10px;
-			transform: translateX(18px);
+			transform: translateX(12px);
 		}
 		p {
 			font-size: 0.7em;
