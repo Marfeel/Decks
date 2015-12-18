@@ -106,3 +106,12 @@ title: Next Steps
 - How can Marfeel be the defacto shell for all publisher's websites allowing them to nail down mobile web across the board and not only inside google.com
 - Accelerated time to market for AMP
 
+---
+
+title: Try it yourself from your mobile browser
+
+- http://www.elconfidencial.com
+- http://www.vozpopuli.com
+- http://www.denofgeek.us
+- http://www.lacanvas.com
+
