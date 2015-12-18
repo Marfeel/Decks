@@ -93,7 +93,7 @@ Marfeel helps publishers optimize their revenues through an specialized system t
 title: From zero to hero
 subtitle: With no pain and no time
 
-We can Marfeelize any random site in a matter of minutes thanks to:
+We can Marfeelize any random site **in a matter of minutes** thanks to:
 
 - Automatic content transformation from original publisher’s html to an optimized version
 - Elastic infrastructure
