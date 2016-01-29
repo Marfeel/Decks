@@ -1,10 +1,10 @@
-(function (doc) {
-    doc.addEventListener("slideenter", function (e) {
+define(["slide-config"], function () {
+    document.addEventListener("slideenter", function (e) {
         callVideosMethod(e.target, "play");
 
     });
 
-    doc.addEventListener("slideleave", function (e) {
+    document.addEventListener("slideleave", function (e) {
         callVideosMethod(e.target, "pause");
     });
 
@@ -15,4 +15,8 @@
             videos[i][method]();
         }
     }
-} (document));
+
+
+    document.getElementById("slide-presenter").innerHTML = SLIDE_CONFIG.presenters.join(", ");
+});
+

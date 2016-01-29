@@ -1,4 +1,4 @@
-var SLIDE_CONFIG = {
+window.SLIDE_CONFIG = {
   // Slide settings
   settings: {
     useBuilds: true, // Default: true. False will turn off slide animation builds.
@@ -17,4 +17,3 @@ var SLIDE_CONFIG = {
   // Author information
   presenters: []
 };
-
