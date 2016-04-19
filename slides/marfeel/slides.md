@@ -20,7 +20,7 @@ class: cover
 
 ---
 
-title: At Marfeel we blindly believe high engagement can only be achieved combining great UX and great performance
+title: At Marfeel we believe high engagement can only be achieved combining great UX and great performance
 subtitle: MRF = f (&#9829;, ⚡, $)
 class: cover
 
@@ -100,20 +100,12 @@ We can Marfeelize any random site **in a matter of minutes** thanks to:
 
 ---
 
-title: Next Steps
-
-- How can we contribute to a bigger vision?
-- How can Marfeel be the defacto shell for all publisher's websites allowing them to nail down mobile web across the board and not only inside google.com
-- Accelerated time to market for AMP
-
----
-
 title: Try it yourself from your mobile browser
 
-- http://www.lacanvas.com
-- http://www.nationalgeographic.fr
-- http://photographyblogger.net
 - http://www.elconfidencial.com
-- http://www.vozpopuli.com
 - http://www.denofgeek.us
+- http://www.lacanvas.com
+- http://www.vozpopuli.com
+- http://photographyblogger.net
+- http://www.nationalgeographic.fr
 

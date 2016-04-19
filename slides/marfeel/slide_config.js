@@ -15,5 +15,5 @@ window.SLIDE_CONFIG = {
   },
 
   // Author information
-  presenters: ["Xavi.Beumala@marfeel.com"]
+  presenters: ["hello@marfeel.com"]
 };
