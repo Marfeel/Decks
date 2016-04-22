@@ -20,7 +20,7 @@ class: cover
 
 ---
 
-title: At Marfeel we believe high engagement can only be achieved combining great UX and great performance
+title: At Marfeel we believe high engagement can only be achieved by combining great UX and great performance
 subtitle: MRF = f (&#9829;, ⚡, $)
 class: cover
 
@@ -80,7 +80,7 @@ contentImage: images/pageSpeed.png
 
 title: $ Monetization
 
-Marfeel helps publishers optimize their revenues through an specialized system that minimizes the number of impressions through:
+Marfeel helps publishers optimize their revenues through a specialized system that minimizes the number of impressions through:
 
 - Ad Dealer. Algorithm that A/B tests & optimizes where ad impressions should be made to maximize the CTR
 - SSP. Platform that decides the floor price for each impression, advertiser, device and time of the day
