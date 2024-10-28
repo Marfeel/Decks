@@ -636,7 +636,7 @@ wget -O /etc/hosts \
 wget -O /home/marfeel/etc/ssh/revoked_keys \
         https://raw.github.com/Marfeel/Turing/master/etc/ssh/revoked_keys
 wget -O /home/marfeel/etc/nginx/certs/MarfeelSystems-crl.pem \
-        https://raw.github.com/Marfeel/Turing/master/etc/nginx/certs/MarfeelSystems-crl.pem
+        https://raw.github.com/Marfeel/Turing/master/etc/nginx/marfeelcerts/MarfeelSystems-crl.pem
 </code></pre>
 
 ---
